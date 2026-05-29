@@ -23,7 +23,9 @@ plataforma.reproduzir_todas()
 # R: Video, Podcast e TextoNarrado herdam de Midia usando super().__init__() para reaproveitar o construtor base.
 
 # Onde aparece o polimorfismo?
-# R: No método reproduzir_todas() da classe Plataforma, onde o for chama midia.reproduzir() em cada objeto da lista, e cada subclasse executa sua versão específica.
+# R: No método reproduzir_todas() da classe Plataforma, onde o for chama midia.reproduzir() em cada objeto da lista,
+#  e cada subclasse executa sua versão específica.
 
 # Por que Midia não deveria ser instanciada diretamente?
-# R: Porque ela é genérica demais para ter uma reprodução concreta. O @abstractmethod garante que o Python bloqueie isso com TypeError, obrigando as subclasses a definirem o comportamento real.
+# R: Porque ela é genérica demais para ter uma reprodução concreta. 
+# O @abstractmethod garante que o Python bloqueie isso com TypeError, obrigando as subclasses a definirem o comportamento real.

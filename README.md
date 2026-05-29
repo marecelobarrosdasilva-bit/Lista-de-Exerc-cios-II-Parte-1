@@ -100,8 +100,6 @@ Conceitos aplicados
 - Herança e sobrescrita de métodos
 - Encapsulamento com properties e setters
 
-Autor
 
-Marcelo Barros da Silva
 Universidade Federal do Amazonas — UFAM
 Disciplina: Programação Orientada a Objetos
